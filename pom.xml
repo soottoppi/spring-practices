@@ -38,6 +38,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.2.0</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 				</configuration>
@@ -46,5 +47,6 @@
 	</build>
 	<modules>
 		<module>hellospring03</module>
+		<module>emaillist03</module>
 	</modules>
 </project>
