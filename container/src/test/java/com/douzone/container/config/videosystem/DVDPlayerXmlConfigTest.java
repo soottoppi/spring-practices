@@ -50,6 +50,20 @@ public class DVDPlayerXmlConfigTest {
 	@Qualifier("avengersDirectorEdition")
 	private DigitalVideoDisc dvd7;
 	
+//	@Autowired
+//	private DigitalVideoDisc dvdPack;
+
+	@Autowired
+	@Qualifier("avengersExpansionEdition1")
+	private DigitalVideoDisc dvd8;
+	
+	@Autowired
+	@Qualifier("avengersExpansionEdition2")
+	private DigitalVideoDisc dvd9;
+	
+	@Autowired
+	@Qualifier("avengersExpansionEdition3")
+	private DigitalVideoDisc dvd10;
 	
 	@Ignore
 	@Test
@@ -85,5 +99,27 @@ public class DVDPlayerXmlConfigTest {
 	@Test
 	public void testDvd7() {
 		assertNotNull(dvd7);
+	}
+	
+//	@Test
+//	public void testDvdPack() {
+//		assertNotNull(dvdPack);
+//		System.out.println(dvdPack);
+//	}
+	
+	@Test
+	public void testDvd8() {
+		assertNotNull(dvd8);
+	}
+	
+	@Test
+	public void testDvd9() {
+		assertNotNull(dvd9);
+	}
+	
+	@Test
+	public void testDvd10() {
+		assertNotNull(dvd10);
+		System.out.println(dvd10);
 	}
 }
