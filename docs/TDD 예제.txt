@@ -1,4 +1,4 @@
-Videosystem
+[Videosystem]
 
 com.douzone.container.videosystem
   |-- DVDPlayer                         (java, src/main/java) 
@@ -12,9 +12,18 @@ com.douzone.container.config.videosystem
 com.douzone.container.config.videosystem
   |-- DVDPlayerXmlConfigTest      		(java, src/test/java)
   |-- DVDPlayerJavaConfigTest     		(java, src/test/java)
+  
+com.douzone.container.config.videosystem.mixing
+  |-- DVDPlayerConfig               	(java, src/main/java)
+  |-- DVDConfig						 	(java, src/main/java)
+  |-- VideoSystemConfig				 	(java, src/main/java)
+  
+com.douzone.container.config.videosystem.mixing
+  |-- DVDPlayerMixingConfig01Test      	(java, src/test/java)
+  |-- DVDPlayerMixingConfig02Test     	(java, src/test/java)
 
 ------------------------------------------------------------
-Soundsystem
+[Soundsystem]
 
 com.douzone.container.soundsystem
   |-- CDPlayer                          (java, src/main/java) 
@@ -22,9 +31,9 @@ com.douzone.container.soundsystem
   |-- HighSchoolRapper2Final      		(java, src/main/java) 
 
 com.douzone.container.config.soundsystem
-  |-- CDPlayerConfig.xml            (xml, src/main/resources)
-  |-- CDPlayerConfig.java           (java, src/main/java) 
+  |-- CDPlayerConfig.xml            	(xml, src/main/resources)
+  |-- CDPlayerConfig.java          		(java, src/main/java) 
 
 com.douzone.container.config.soundsystem
-  |-- CDPlayerXmlConfigTest      (java, src/test/java)
-  |-- CDPlayerJavaConfigTest     (java, src/test/java)
+  |-- CDPlayerXmlConfigTest      		(java, src/test/java)
+  |-- CDPlayerJavaConfigTest    		 (java, src/test/java)
