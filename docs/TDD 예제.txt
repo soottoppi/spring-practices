@@ -3,7 +3,7 @@ Videosystem
 com.douzone.container.videosystem
   |-- DVDPlayer                         (java, src/main/java) 
   |-- DigitalVideoDisc                  (java, src/main/java) 
-  |-- ...			  			      	(java, src/main/java) 
+  |-- ...								(java, src/main/java) 
 
 com.douzone.container.config.videosystem
   |-- DVDPlayerConfig.xml            	(xml, src/main/resources)
