@@ -1,6 +1,4 @@
-package com.douzone.container.config.videosystem;
-
-import com.douzone.container.videosystem.DigitalVideoDisc;
+package com.douzone.container.videosystem;
 
 public class Avengers implements DigitalVideoDisc {
 	private String title = "Avengers";
