@@ -1,0 +1,30 @@
+Videosystem
+
+com.douzone.container.videosystem
+  |-- DVDPlayer                         (java, src/main/java) 
+  |-- DigitalVideoDisc                  (java, src/main/java) 
+  |-- ...			  			      	(java, src/main/java) 
+
+com.douzone.container.config.videosystem
+  |-- DVDPlayerConfig.xml            	(xml, src/main/resources)
+  |-- DVDPlayerConfig.java           	(java, src/main/java) 
+
+com.douzone.container.config.videosystem
+  |-- DVDPlayerXmlConfigTest      		(java, src/test/java)
+  |-- DVDPlayerJavaConfigTest     		(java, src/test/java)
+
+------------------------------------------------------------
+Soundsystem
+
+com.douzone.container.soundsystem
+  |-- CDPlayer                          (java, src/main/java) 
+  |-- CompactDisc                     	(java, src/main/java) 
+  |-- HighSchoolRapper2Final      		(java, src/main/java) 
+
+com.douzone.container.config.soundsystem
+  |-- CDPlayerConfig.xml            (xml, src/main/resources)
+  |-- CDPlayerConfig.java           (java, src/main/java) 
+
+com.douzone.container.config.soundsystem
+  |-- CDPlayerXmlConfigTest      (java, src/test/java)
+  |-- CDPlayerJavaConfigTest     (java, src/test/java)
